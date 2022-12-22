@@ -1,16 +1,19 @@
-const mongoose = require("mongoose")
-const connect = () => {
-    return mongoose.connect(`${process.env.DATABASE_URL}`, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    })
-        .then(() => console.log('Database conectada com sucesso'))
-        .catch(err => {
-            throw err
-        })
+const mongoose = require('mongoose')
+mongoose.set('strictQuery', true)
+const uri = process.env.MONGODB_URI;
 
+const connect = async () => {
+    try {
+        await mongoose.connect(uri, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true
+        })
+        console.log("Banco conectado")
+    } catch (error) {
+        console.error("Erro: ", error.message)
+    }
 }
 
-module.exports ={
+module.exports = {
     connect
 }
