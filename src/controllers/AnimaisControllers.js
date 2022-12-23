@@ -4,7 +4,7 @@ const Animais = require("../models/AnimaisSchema")
 
 const showAnimais = async (request, response) => {
     const animais = await Animais.find()
-    return response.status(200).json(lojas)
+    return response.status(200).json(animais)
 }
 
 const showAnimaisNome = async (request, response) => {
@@ -36,26 +36,25 @@ const showAnimaisId = async (request, response) => {
 }
 
 const createAnimais = async (request, response) =>{
-    const animais = new Animais({
+    const animal = new Animais({
         _id: new mongoose.Types.ObjectId(),
-        nome: request.body.nome.animal,
-        raça: request.body.raça.animal,
-        caracteristicas_do_animal: request.body.porte.animal,
-        ong: requesty.body.nome.ong,
-        telefone: request.body.telefone.ong.number,
+        nome: request.body.nome,
+        raça: request.body.raça,
+        porte_do_animal: request.body.porte_do_animal,
+        ong: request.body.ong,
+        telefone: request.body.telefone,
 
-        } para casa analisar creates de animais e ver quais dados faltam ser colocados
-    })
+        }) 
+        
 
        try{
-        const newAnimais = await animais.save()
+        const newAnimais = await animal.save()
         return response.status(201).json(newAnimais)
     }catch(error){
         return response.status(400).json({
             message: error.message
         })
-    }
-}
+    }}
 
 const replaceAnimais = async (request, response) => {
         const animais = await Animais.findById(request.params.id)
@@ -67,8 +66,8 @@ const replaceAnimais = async (request, response) => {
         }
 
         if(request.params.id != null){
-            ong.nome = request.body.ong.nome,
-            ong.telefone = request.body.ong.telefone.number
+            animais.nome = request.body.nome,
+            animais.telefone = request.body.telefone
         }
 
         try{

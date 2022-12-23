@@ -1,14 +1,15 @@
-require("dotenv").config()
-const express = require ("express")
-const cors = require("cors")
-const database = require("./config/database")
+const express = require('express');
+const app = express();
+const cors = require('cors');
 
-const app = express()
+require('dotenv').config();
 
-app.use(express.json())
-app.use(cors())
+const db = require("./config/database");
+const AnimaisRoutes = require("./routes/AnimaisRoutes")
 
-app.get("/" , (req, res)=> res.status(200).send("Seja Bem-vinda") )
-database.connect()
+db.connect();
 
-module.exports = app
+app.use(cors());
+app.use(express.json());
+app.use("/animais", AnimaisRoutes);
+module.exports = app;

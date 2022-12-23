@@ -1,13 +1,4 @@
-const express = require("express")
-const app = express()
+const app = require('./src/app');
+const PORTA = process.env.PORTA;
 
-//Conectar database
-const db = (require("./src/data/database"))
-db.connect()
-// Rotas
-
-// Conexão json
-app.use(express.json())
-
-//Servidor
-app.listen(3333,() => console.log("Sucesso!"))
+app.listen(PORTA, () => console.log(`Servidor rodando na porta ${PORTA}`))
