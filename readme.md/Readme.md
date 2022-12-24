@@ -21,9 +21,9 @@ Fazer um CRUD - que contenha as ações de criar, cadastrar, atualizar e excluir
 
 Termo de responsabilidade:
 ⦁	Não pode haver o mesmo animal cadastrado mais de uma vez;
-⦁	Deve haver uma rota que traga todos os animais cadastrados e suas características (para que o adotante identifique e encontre o animal que deseja encontrar por raça e porte) e que a partir desta busca o adotante possa encontrar o animal em conformidade com seus anseios enquanto um guardião de pet partindo dos perfis cadastrados destes animais;
+⦁	Deve haver uma rota que traga todos os animais cadastrados e suas características (para que o adotante identifique e encontre o animal que deseja encontrar por nome; porte, telefone ou id) e que a partir desta busca o adotante possa encontrar o animal em conformidade com seus anseios enquanto um guardião de pet partindo dos perfis cadastrados destes animais;
 ⦁	Deve ser possível atualizar os cadastros dos animais contando com a entrada ou saída destes das ongs ou lares temporários disponíveis;
-⦁	Deve haver uma rota que retorne animais ("/animais"): Por nome; raça; porte ou  Por id.
+⦁	Deve haver uma rota que retorne animais ("/animais"): Por nome; porte ou  Por id.
 ⦁	Deve haver uma rota que retorne animais ("/animais"): Por nome; Por id.
 ⦁	Deve haver uma rota para cadastro/atualização de animais;
 ⦁	Deve ser possível adotante entrar em contato com a ong para marcar visita para conhecer o pet de seu interesse.E para (reserva deste animal se for o caso) trocando informações, orientações e iniciar o processo de adoção e acompanhamento;
