@@ -1,4 +1,4 @@
-gPROJETO LIVRE
+PROJETO LIVRE
 
 Reprograma
 
