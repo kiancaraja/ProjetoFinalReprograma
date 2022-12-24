@@ -53,89 +53,38 @@ Tecnologias
 ⦁	Vercel
 
 Dependências
-⦁	Bcrypt
 ⦁	Cors
 ⦁	Dotenv
 ⦁	Express
-⦁	Jest
-⦁	Jsonwebtoken
 ⦁	Mongoose
 ⦁	Nodemon
-⦁	Supertest
 
 Rotas/EndPoints
 
 GET /animais/all
-GET/raça/all
-GET/porte/all
-GET/ong/all
-GET/reserve/all
-GET/users/all
-Rota que retorna uma lista com todos os animais, raça, porte, ongs, telefone, reservas, agenda e adotante para os animais e telefones cadastrados na API.
+GET/animais/all
+GET/animais/all/:id
+
+Rota que retorna uma lista com todos os animais (opção por nome e por id) cadastrados na API.
 HTTP 200 OK
 
-GET /animais/all/:id
-GET/ongs/all/:id
-GETtelefone/all/:id
-Rota que retorna uma lista com todos as , animais, ongs, telefones, ongs e animais da API pelo seu id correspondente.
-HTTP 200 OK
 
-POST animais/create
-POST ongs/create
-POST telefones/create
-POST reserve/create
-Rota que cadastra animais, ongs,telefone e reservas da API.
+POST/animais/create
+
+Rota que cadastra animais, ongs e telefone na API.
 HTTP 201 CREATED
 
-PATCH animais/update/:id
-PATCH ongs/update/:id
-PATCH telefones/update/:id
-PATCH reserve/update/:id
-PATCH users/update/:id
-Rota que atualiza os dados de animais, ongs, telefones e reservas da API pelo seu id. 
+PATCH/animais/update/:id
+
+Rota que atualiza os dados de animais na API pelo seu id. 
 HTTP 200 OK 
 
-DELETE animais/update/:id
-DELETE ongs/update/:id
-DELETE telefones/update/:id
-DELETE reserve/update/:id
-DELETE users/update/:id
-Rota que deleta animais, ongs, telefones e reservas da API pelo seu id.
+DELETE/animais/update/:id
+
+Rota que deleta animais na API pelo seu id.
 HTTP 204 NO CONTENT
 
 Exemplos?
 
-                                
- 
 
-
-
-Entregas
-
-Apresentação disponível no Canva/powerpoint;
-Repositório disponível no Github;
 Desenvolvido por Eliene Maria da Silva;
-
-Implementações futuras
-⦁	Aplicação de diretrizes de segurança nas rotas privadas da API baseadas na LGPD.
-⦁	Implementação de acessibilidade WEB.
-⦁	Implementação das políticas de autenticação, certificação e cadastramento da plataforma.
-⦁	Implantação da função "Corte Social"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                            30/12/22 

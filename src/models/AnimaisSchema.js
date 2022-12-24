@@ -24,7 +24,7 @@ const AnimaisSchema = new mongoose.Schema({
 
     },
     telefone:{
-        type: Number,
+        type: String,
         required: true
     }
     
