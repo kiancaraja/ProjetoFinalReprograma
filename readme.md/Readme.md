@@ -71,7 +71,7 @@ HTTP 204 NO CONTENT
 Desenvolvido por Eliene Maria da Silva
 sob orientação de Bea Ramerindo (professora) e Kalliandra(aluna) dentre outras amigas alunas da reprograma que doaram seu tempo e paciência me dando dicas e orientações importantes. Meu obrigada de Coração principalmente pelas puxadas de orelha sempre merecidaas.
 
-(no último instante já sem esperanças meus pés tocaram o fundo do poço, momento que usei minha última reserva de energia, para tocar bem no fundo e impulsionar para a superfície antes de perder as esperanças de vez. Depois de algum tempo em minha vida aprendi que não tenho mais tempo para desistir).
+(no último instante já sem esperanças meus pés tocaram o fundo do poço, momento que usei minha última reserva de energia, para tocar bem no fundo e impulsionar para a superfície antes de perder as esperanças de vez. Depois de algum tempo em minha vida aprendi que não tenho mais tempo nem paciência para desistir).
 
 (Obrigada Deus, obrigada eu por não desistir de mim! Obrigada Jess e todas da reprograma pela oportunidade inúmeras vezes disponibilizada!)
 
