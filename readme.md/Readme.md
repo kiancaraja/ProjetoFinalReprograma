@@ -22,11 +22,11 @@ Fazer um CRUD - que contenha as ações de criar, cadastrar, atualizar e excluir
 Termo de responsabilidade:
 ⦁	Não pode haver o mesmo animal cadastrado mais de uma vez;
 ⦁	Deve haver uma rota que traga todos os animais cadastrados e suas características (para que o adotante identifique e encontre o animal que deseja encontrar por raça e porte) e que a partir desta busca o adotante possa encontrar o animal em conformidade com seus anseios enquanto um guardião de pet partindo dos perfis cadastrados destes animais;
-⦁	Deve ser possível atualizar os cadastros dos animais contando com a entrada ou saída dos animais das ongs ou lares temporários disponíveis;
-⦁	Deve haver uma rota que retorne animais ("/animais"): Por nome; porte; telefone ou  Por id.
+⦁	Deve ser possível atualizar os cadastros dos animais contando com a entrada ou saída destes das ongs ou lares temporários disponíveis;
+⦁	Deve haver uma rota que retorne animais ("/animais"): Por nome; raça; porte ou  Por id.
 ⦁	Deve haver uma rota que retorne animais ("/animais"): Por nome; Por id.
 ⦁	Deve haver uma rota para cadastro/atualização de animais;
-⦁	Deve ser possível adotante entrar em contato com a ong para marcar visita para conhecer o pet de seu interesse.E para (reserva deste animal se for o caso) trocando informações e orientações iniciando o processo de adoção e acompanhamento;
+⦁	Deve ser possível adotante entrar em contato com a ong para marcar visita para conhecer o pet de seu interesse.E para (reserva deste animal se for o caso) trocando informações, orientações e iniciar o processo de adoção e acompanhamento;
 
 Tecnologias 
 ⦁	Git/Github
@@ -75,4 +75,4 @@ sob orientação de Bea Ramerindo (professora) e Kalliandra(aluna) dentre outras
 
 (Obrigada Deus, obrigada eu por não desistir de mim! Obrigada Jess e todas da reprograma pela oportunidade inúmeras vezes disponibilizada!)
 
-Perdão pelas vezes que entrei em pânico e me expressei mal.
+Perdão pelas vezes que entrei em pânico.
