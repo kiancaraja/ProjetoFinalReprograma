@@ -78,4 +78,5 @@ DELETE/animais/update/:id
 Rota que deleta animais na API pelo seu id.
 HTTP 204 NO CONTENT
 
-Desenvolvido por Eliene Maria da Silva.
+Desenvolvido por Eliene Maria da Silva
+Assistente Social - desde 2004;Tentando transição de carreira para o mercado tecnológico como Dev Back - pela escola Reprogram no Curso Todas em Tech - Turma On18. 
