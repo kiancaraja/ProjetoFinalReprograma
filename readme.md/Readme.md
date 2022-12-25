@@ -48,7 +48,6 @@ Tecnologias
 
 Dependências
 
-⦁	Cors
 ⦁	Dotenv
 ⦁	Express
 ⦁	Mongoose
