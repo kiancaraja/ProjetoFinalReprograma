@@ -24,17 +24,16 @@ Proposta:
 
   Criação de um Pré Projeto de API que realize um CRUD completo conectado a um banco de dados que busca,cria,cadastra e deleta animais em situação de abrigo ou lar temporário enquanto aguardam um adotante possibilitando interlocução e uma rede de apoio com informações, sensibilização e orientações fomentando o interesse das pessoas por adotar um pet de forma segura, responsável e dígna visando a integridade deste animal e fortalencendo o vínculo entre o adotante e seu pet neste lar para que, a relação e adaptação entre família e o pet,realize a guarda de forma responsável, sem risco de reincidência de abandono, maus tratos ou devolução do mesmo para esta ong ou este lar temporário.
 
-Fazer um CRUD - que contenha as ações de criar, cadastrar, atualizar e excluir dados dos animais que aguardam um adotante nos lares temporários ou nas ongs.
+Fazer um CRUD - que contenha as ações de criar, cadastrar, atualizar e excluir dados dos animais que aguardam um adotante nos lares temporários ou nas ongsdeste banco de dados.
 
 Proibições:
 
 ⦁	Não pode haver o mesmo animal cadastrado mais de uma vez;
-⦁	Deve haver uma rota que traga todos os animais cadastrados e suas características (para que o adotante identifique e encontre o animal que deseja encontrar por nome; porte, telefone ou id) e que a partir desta busca o adotante possa encontrar o animal em conformidade com seus anseios enquanto um guardião de pet partindo dos perfis cadastrados destes animais;
-⦁	Deve ser possível atualizar os cadastros dos animais contando com a entrada ou saída destes das ongs ou lares temporários disponíveis;
+⦁	Deve haver uma rota que traga todos os animais cadastrados por características (para que o adotante identifique e encontre o animal que procura por nome; porte, telefone ou id);
+⦁	Deve ser possível atualizar os cadastros dos animais;
 ⦁	Deve haver uma rota que retorne animais ("/animais"): Por nome; porte ou  Por id.
 ⦁	Deve haver uma rota que retorne animais ("/animais"): Por nome; Por id.
 ⦁	Deve haver uma rota para cadastro/atualização de animais;
-⦁	Deve ser possível adotante entrar em contato com a ong para marcar visita para conhecer o pet de seu interesse.E para (reserva deste animal se for o caso) trocando informações, orientações e iniciar o processo de adoção e acompanhamento;
 
 Tecnologias 
 
@@ -78,4 +77,4 @@ Rota que deleta animais na API pelo seu id.
 HTTP 204 NO CONTENT
 
 Desenvolvido por Eliene Maria da Silva
-Assistente Social - desde 2004;Tentando transição de carreira para o mercado tecnológico como Dev Back - pela escola Reprogram no Curso Todas em Tech - Turma On18. 
+Assistente Social - desde 2004;em transição para a carreira de Dev Back - pela escola Reprograma - Curso Todas em Tech - Turma On18. 
